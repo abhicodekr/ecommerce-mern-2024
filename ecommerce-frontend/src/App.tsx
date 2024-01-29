@@ -9,6 +9,7 @@ import Cart from "./pages/cart"
 
 const App = () => {
   return <Router>
+    {/* Header*/}
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/search" element={<Search/>}/>
